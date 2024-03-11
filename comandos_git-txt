@@ -41,7 +41,7 @@ git push -u origin main ---> envio al repositorio
 
 
 /*********desde la 2 vez ************/
-git pull ---> bajar cualquier cambio que esté en la nube y no esté en nuestro computador. bajar cualqueir archivo que no tengamos localmente
+git pull ---> bajar cualquier cambio que esté en la nube y no esté en nuestro computador. bajar cualquier archivo que no tengamos localmente
 git add .
 git commit -m "se agrega estructura base al html"
 git push -u origin main

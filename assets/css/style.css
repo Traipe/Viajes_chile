@@ -26,11 +26,15 @@ img {
     
 }
 
-/*iconos y párrafos*/
-.row{ 
+/*Quienes Somos iconos y párrafos*/
+
+@media (max-width: 768px) {
+    #quienes_somos{
+      visibility: hidden;
+    }
+  }
 
 
-}
 .icon_plane{
     font-size: 2em;
     background-color: #0dcaf0;
