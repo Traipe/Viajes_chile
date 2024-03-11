@@ -26,9 +26,10 @@ img {
 
 @media (max-width: 768px) {
     #quienes_somos{
-      visibility: hidden;
+      display: none;
     }
   }
+  
 
 
 .icon_plane{
