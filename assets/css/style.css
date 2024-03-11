@@ -105,17 +105,4 @@ footer {
     text-decoration: none;
 }
 
-.footer-socialicons {
-    display: flex ;
-    justify-content: flex-end;
 
-}
-
-.footer-socialicons i{
-    text-decoration: none;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20%;
-    font-size: 2em;
-    opacity: 0,9;
-}
