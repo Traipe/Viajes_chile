@@ -1,0 +1,64 @@
+pwd -> muestra la ruta (path), donde estamos posicionados
+(print working directory)
+ls -> listar  los archivos y carpetas donde estamos posicionados
+ls -l -> listar  los archivos y carpetas pero con detalles
+ls -la -> listar TODOS los archivos y carpetas (incluidos los ocultos), con informacion detallada
+d rwx r-x r-x -> r= read; w= write; x= execute
+clear -> limpiar la terminal
+cd -> change directory (...uno atrás) (tab rellena nombre por mí)
+cd nombre carpeta -> ingresar a la carpeta
+cd ..-> volver un directorio atrás
+
+******manejo de archivos*****
+touch nombre_archivo.extension --> crear un archivo
+echo "# ejemplo1_g7" -->> archivo.txt ---> permite escribir dentro de un archivo
+mkdir nombre_carpeta --> crear directorio
+cp nombre_archivo.extension directorio ---> copiar un archivo dentro del directorio
+cp -r nombre_carpeta directorio_destino ---> copia el contenido de una en otra
+
+mkdir ejercicio1 ejercicio1/assets assets/css assets/js assets/
+rm nombre_archivo.extension o
+rm -rf nombre_directorio ---> borrar directorio y TODO su contenido
+
+
+********* GIT ***********
+git --version --->conocer la version instalada de GIT
+
+git config --global user.name "traipe"
+git config --global user.email "jimenatraipe@gmail.com"
+git init ---> nos ayuda a inicializar git en el proyecto
+
+/************** SOLO LA PRIMERA VEZ ********************/
+
+echo "# ejemplo1_g7" >> README.md ---> escribir dentro de los archivos, de los comandos
+git init
+git add .  ---> añadir TODOS los archivos al versionamiento
+git commit -m "mi primer commit"  ---> que sea significativo, que se sepa que está haciendo, agregar una descripcion y confirmar
+git branch -M main ---> crear una nueva rama llamada main
+git remote add origin https://github.com/Traipe/ejemplo1_g7.git ---> vincular conr espositorio en la nube
+git push -u origin main ---> envio al repositorio
+
+
+
+/*********desde la 2 vez ************/
+git pull ---> bajar cualquier cambio que esté en la nube y no esté en nuestro computador. bajar cualqueir archivo que no tengamos localmente
+git add .
+git commit -m "se agrega estructura base al html"
+git push -u origin main
+
+git log ---> entrega informacion sobre los commit realizados ( :q para salir en caso de que se pegue )
+git status ---> entrega el estado del repositorio
+
+git remote ---> ver los enlaces a repositorios
+git remote -v  ---> ver las rutas de los enlaces
+git remote show origin ---> demuestra mas detalle del enlace
+git clone ruta ---> descargar en el equipo el repositorio
+git remote rename nombre_inicial nuevo_nombre -->> renombrando el enlace
+
+git remote rm detraipe  ---Z eliminar el enlace del repositorio clonado
+
+git remote add origin https://github.com/learsixela/demo0045.git
+
+/********** STASH (reservar) ****/
+git stash ---> aparte o reserva nuestros cambios a un lugar temporalmente
+git stash list  --> listar todos los stash

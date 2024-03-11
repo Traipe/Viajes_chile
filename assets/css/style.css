@@ -1,0 +1,124 @@
+body{
+    background-color: #000;
+    margin: 0px;
+    padding: 0px;
+    font-style: "Raleway", sans-serif;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+img {
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+    width: 20px;
+    box-sizing: border-box;
+}
+
+/*Carrusel*/
+
+.carousel-item{
+    
+}
+
+/*iconos y párrafos*/
+.row{ 
+
+
+}
+.icon_plane{
+    font-size: 2em;
+    background-color: #0dcaf0;
+    color: #FFFFFF;
+}
+
+.icon_mountain{
+    font-size: 2em;
+    background-color: #0dcaf0;
+    color: #FFFFFF;
+}
+
+.icon_route{
+    font-size: 2em;
+    background-color: #0dcaf0;
+    color: #FFFFFF;
+}
+
+.form-label {
+    
+}
+
+.h3{
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+
+.tres-parrafos{
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+/*cartas*/
+
+.card {
+    width: 500px;
+    height: 400px;
+    padding: 5px;
+    margin: 0 auto;
+    background-color: #0dcaf0;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/*contacto*/
+
+.form-label{
+    color: #FFFFFF;
+}
+
+.btn {
+    color: #FFFFFF;
+
+}
+
+
+
+/*Footer*/
+
+footer {
+    background-color: #0dcaf0; 
+    color: #FFFFFF; 
+    padding: 50px 30px 20px;
+    text-align: left;
+}
+
+.footer-text{
+    text-decoration: none;
+}
+
+.footer-socialicons {
+    display: flex ;
+    justify-content: flex-end;
+
+}
+
+.footer-socialicons i{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20%;
+    font-size: 2em;
+    opacity: 0,9;
+}
