@@ -1,9 +1,8 @@
 $(document).ready(function(){
- 
-  // Activar Tooltip
-  $('[data-toggle="tooltip"]').tooltip();
-
+  $('#carouselExampleSlidesOnly').carousel();
 });
+ 
+
 
 //Esconder h3
 $("h3").clickhide();
@@ -26,4 +25,3 @@ $("h3").clickhide();
 
 
 //fin  
-});
